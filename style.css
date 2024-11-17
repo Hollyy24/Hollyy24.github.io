@@ -93,9 +93,8 @@ h1{
 
 
 .work_list SVG{
-    float:right;
+    display: inline-block;
     padding-top:10px;
-    padding-right:50px;
 }
 
 .work_list_title{
@@ -119,6 +118,12 @@ h1{
     list-style: none;
 
 }
+
+.work_list p{
+    display: inline-block;
+}
+
+
 
 .work_list_img{
     border:4px solid white;
